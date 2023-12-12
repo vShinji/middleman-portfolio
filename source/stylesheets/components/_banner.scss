@@ -1,3 +1,16 @@
 .banner {
-  height: 100vh;
+  height: 55svh;
+}
+
+.banner-bg {
+  background-image: image-url('Banner-bg.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60svh;
+  width: 100%;
+  padding: 0;
+}
+
+.banner h1 {
+  color:white;
 }
