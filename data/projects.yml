@@ -1,7 +1,7 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: SuiteFit
+  description: Suite Fit is a moving app that allows users to see if their furniture/items will fit in an apartment before moving, giving them the confidence they need to commit to a move.
+  image: projects/SuiteFit.png
+  url: http://www.suitefit.tech/
 
 - name: Movie Watchlist
   description: Decent description of the app
