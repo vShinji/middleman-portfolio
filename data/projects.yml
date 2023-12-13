@@ -5,7 +5,7 @@
 
 - name: KnightTime
   description: KnightTime is an app that lets find your next favorite medieval experience or host one yourself.
-  image: projects/placeholder.png
+  image: projects/KnightTime.png
   url: https://github.com/vShinji/KnightTime
 
 - name: GifList
