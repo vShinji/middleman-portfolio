@@ -1,1 +1,13 @@
 // Specific CSS for your home-page
+
+body {
+  overflow-x: hidden;
+}
+
+body h1, h2, h3, h4, h5, p, i {
+  color: white;
+}
+
+body p {
+  font-weight: 200;
+}

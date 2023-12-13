@@ -3,22 +3,12 @@
   image: projects/SuiteFit.png
   url: http://www.suitefit.tech/
 
-- name: Movie Watchlist
-  description: Decent description of the app
+- name: KnightTime
+  description: KnightTime is an app that lets find your next favorite medieval experience or host one yourself.
   image: projects/placeholder.png
-  url: https://www.google.com
+  url: https://github.com/vShinji/KnightTime
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Yelp
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: GifList
+  description: App with lots of gifs and was made in react.
+  image: projects/GifList.png
+  url: https://vshinji.github.io/gif-list/
