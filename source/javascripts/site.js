@@ -8,7 +8,7 @@ window.addEventListener("scroll", () => {
 // bg stars
 
 function stars() {
-  let e = document.createElement("div");
+  let e = document.createElement("span");
   e.setAttribute("class", "star");
   document.body.appendChild(e);
   e.style.left = Math.random() * + innerWidth + "px";

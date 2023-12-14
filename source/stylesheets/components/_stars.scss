@@ -1,11 +1,11 @@
-.star {
+.star span {
   position: absolute;
-  top: -20px;
+  top: 0px;
   color: #fff;
   animation: animate 5s linear forwards;
 }
 
-.star ::before {
+.star::before {
   content: "\f005";
   font-family: fontAwesome;
   text-shadow: 0 0 5px #fff,
