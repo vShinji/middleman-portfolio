@@ -54,7 +54,7 @@
 
 .external-link {
   margin-left: 8px;
-  opacity: 0;
+  opacity: 1;
   color: $gray;
   transition: opacity 1s;
   &:hover {
@@ -89,7 +89,7 @@
     grid-template-columns: 1fr 1fr;
   }
   .external-link {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
