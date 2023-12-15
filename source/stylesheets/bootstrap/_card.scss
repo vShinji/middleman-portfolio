@@ -84,15 +84,6 @@
   margin-bottom: 0;
 }
 
-.card-link {
-  &:hover {
-    text-decoration: if($link-hover-decoration == underline, none, null);
-  }
-
-  + .card-link {
-    margin-left: var(--#{$prefix}card-spacer-x);
-  }
-}
 
 //
 // Optional textual caps
