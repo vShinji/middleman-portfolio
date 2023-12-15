@@ -15,6 +15,9 @@
 @keyframes animate {
   0% {
     transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
     opacity: 1;
   }
   80% {

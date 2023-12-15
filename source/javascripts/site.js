@@ -26,4 +26,4 @@ function stars() {
 
 setInterval(() => {
  stars()
-}, 100);
+}, 250);
