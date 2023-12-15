@@ -5,7 +5,7 @@
   animation: animate 5s linear forwards;
 }
 
-.star::before {
+.star::after {
   content: "\f005";
   font-family: fontAwesome;
   text-shadow: 0 0 5px #fff,
