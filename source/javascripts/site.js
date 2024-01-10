@@ -1,3 +1,8 @@
+import React, { useEffect, useRef } from "react";
+import { motion, useInView, useAnimation } from "frame-motion";
+
+// Parallax bg
+
 window.addEventListener("scroll", () => {
   document.querySelector(".banner-bg").style.backgroundSize = `${window.scrollY * 1.8 + 2000 }px`
   document.querySelector(".banner-bg h1").style.opacity = `${(-window.scrollY + 300) * .004}`
