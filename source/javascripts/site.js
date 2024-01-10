@@ -1,6 +1,3 @@
-import React, { useEffect, useRef } from "react";
-import { motion, useInView, useAnimation } from "frame-motion";
-
 // Parallax bg
 
 window.addEventListener("scroll", () => {
@@ -32,3 +29,19 @@ function stars() {
 setInterval(() => {
  stars()
 }, 230);
+
+// Scroll animation
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      console.log(entry)
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      } else {
+        entry.target.classList.remove("show");
+      }
+    });
+});
+
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));
