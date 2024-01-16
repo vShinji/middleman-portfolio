@@ -6,7 +6,7 @@
 - name: KnightTime
   description: KnightTime is an app that lets find your next favorite medieval experience or host one yourself.
   image: projects/KnightTime.png
-  url: https://knight-time-f246419c41c0.herokuapp.com/
+  url: https://knighttime-55359757e6af.herokuapp.com/
 
 - name: GifList
   description: App with lots of gifs and was made in react.
