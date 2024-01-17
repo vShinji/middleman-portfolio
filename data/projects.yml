@@ -19,6 +19,6 @@
   description: App with lots of gifs and was made in react.
   image: projects/GifList.png
   url: https://vshinji.github.io/gif-list/
-  code_url:
-  role: Sole developer
-  tech:
+  code_url: https://github.com/vShinji/gif-list
+  role: Frontend developer
+  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-react-original-wordmark"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
