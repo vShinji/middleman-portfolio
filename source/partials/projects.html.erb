@@ -12,8 +12,15 @@
                   <% link_to project.url, class: 'external-link', target: '_blank' do %>
                     <h2><%= project.name %></h2>
                   <% end %>
+                  <% link_to project.code_url, class: 'external-link', target: '_blank' do %>
+                    <h2><i class="devicon-github-original"></i></h2>
+                  <% end %>
                 </div>
-                <p><%= project.description %></p>
+                <div class="ps-2">
+                  <p style="font-weight: bold"><%= project.role %></p>
+                  <p><%= project.description %></p>
+                  <h3 class="mt-3"><%= project.tech %></h3>
+                </div>
               </div>
             </div>
           <% end %>
