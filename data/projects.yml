@@ -30,3 +30,11 @@
   code_url: https://github.com/vShinji/Rock-Paper-Scissor
   role: Frontend developer
   tech: <i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-javascript-plain"></i>
+
+- name: Click-me!
+  description: Click-me button with animations made with Javascript
+  image: projects/click-me.png
+  url: https://vshinji.github.io/Click-me/
+  code_url: https://github.com/vShinji/Click-me
+  role: Frontend developer
+  tech: <i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-javascript-plain"></i>
