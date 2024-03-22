@@ -16,7 +16,7 @@
     transparent 70%
   );
   border-image-slice: 1;
-  max-width: 40%;
+  width: 85%;
 }
 
 .card-product img {
@@ -80,8 +80,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30svh, 1fr));
-  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
 }
 
 // link animation on hover
