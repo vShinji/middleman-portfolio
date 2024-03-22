@@ -1,7 +1,7 @@
 
 .card-product {
   overflow: hidden;
-  height: 40vh;
+  height: 40svh;
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
@@ -16,16 +16,17 @@
     transparent 70%
   );
   border-image-slice: 1;
+  max-width: 40%;
 }
 
 .card-product img {
   height: inherit;
-  width: 300px;
+  max-width: 16rem;
   object-fit: cover;
 }
 
 .card-product h2 {
-  font-size: 30px;
+  font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
 }
@@ -77,6 +78,12 @@
   display: unset;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30svh, 1fr));
+  grid-gap: 10px;
+}
+
 // link animation on hover
 
 @keyframes beforeAnimate {
@@ -90,13 +97,17 @@
   }
 }
 
-// Smallest device
-@media (min-width: 400px) and (max-width: 575px) {
-  .card-product-infos {
-    width: 48%;
-    margin: 1%;
-  }
-  .external-link {
-    opacity: 1;
-  }
+// small size device
+@media only screen and (max-width: 600px) {
+
+}
+
+// medium size device
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+
+}
+
+// larger size device
+@media only screen and (min-width: 900px) {
+
 }

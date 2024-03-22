@@ -23,7 +23,7 @@
   role: Frontend developer
   tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-react-original-wordmark"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
 
-- name: Rock, Paper, Scissors Game
+- name: Rock, Paper, Scissors
   description: Simple Rock,Paper,Scissors game made with Javascript
   image: projects/rock-paper-scissors.png
   url: https://vshinji.github.io/Rock-Paper-Scissor/
