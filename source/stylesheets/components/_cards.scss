@@ -99,15 +99,38 @@
 
 // small size device
 @media only screen and (max-width: 600px) {
-
+  .grid{
+    grid-template-columns: 1fr;
+  }
+  .card-product {
+    height: 52svh;
+    width: 100%;
+  }
+  .card-product img {
+    height: inherit;
+    max-width: 16rem;
+    object-fit: cover;
+  }
+  .card-product h2 {
+    font-size: 1.2rem;
+  }
 }
 
 // medium size device
 @media only screen and (min-width: 600px) and (max-width: 900px) {
-
-}
-
-// larger size device
-@media only screen and (min-width: 900px) {
-
+  .grid{
+    grid-template-columns: 1fr;
+  }
+  .card-product {
+    height: 52svh;
+    width: 100%;
+  }
+  .card-product img {
+    height: inherit;
+    max-width: 16rem;
+    object-fit: cover;
+  }
+  .card-product h2 {
+    font-size: 1.2rem;
+  }
 }
