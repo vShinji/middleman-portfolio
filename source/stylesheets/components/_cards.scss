@@ -109,7 +109,7 @@
   }
   .card-product img {
     height: inherit;
-    max-width: 10rem;
+    max-width: 100%;
     object-fit: cover;
   }
   .card-product h2 {
@@ -119,19 +119,5 @@
 
 // medium size device
 @media only screen and (min-width: 600px) and (max-width: 900px) {
-  .grid{
-    grid-template-columns: 1fr;
-  }
-  .card-product {
-    height: 70svh;
-    width: 100%;
-  }
-  .card-product img {
-    height: inherit;
-    max-width: 10rem;
-    object-fit: cover;
-  }
-  .card-product h2 {
-    font-size: 1.2rem;
-  }
+
 }
