@@ -105,6 +105,7 @@
   .card-product {
     height: 70svh;
     width: 100%;
+    flex-direction: column;
   }
   .card-product img {
     height: inherit;
