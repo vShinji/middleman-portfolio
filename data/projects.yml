@@ -3,7 +3,7 @@
   image: projects/SuiteFit.png
   url: http://www.suitefit.tech/
   code_url: https://github.com/RLMP44/SuiteFit
-  role: Fullstack developer(Frontend Focus)
+  role: Fullstack developer
   tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"> </i><i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i> <i class="devicon-heroku-original-wordmark"></i>
 
 - name: KnightTime
@@ -11,9 +11,16 @@
   image: projects/KnightTime.png
   url: https://knighttime-55359757e6af.herokuapp.com/
   code_url: https://github.com/herah-s/KnightTime
-  role: Fullstack developer(Frontend Focus)
+  role: Fullstack developer
   tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"> </i><i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i> <i class="devicon-heroku-original-wordmark"></i>
 
+- name: Spotify Demo
+  description: Simple spotify demo app with song preview
+  image: projects/Spotify-demo.png
+  url: https://github.com/vShinji
+  code_url: https://github.com/vShinji/spotifyapp
+  role: Fullstack developer
+  tech: <i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-javascript-plain"></i><i class="devicon-nodejs-plain-wordmark"></i>
 
 - name: GifList
   description: App with lots of gifs and was made in react.
